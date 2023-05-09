@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*,*::after, *::before{
+	box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video  {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	border-width: 0;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+input, textarea, select,option { font-family:inherit; }
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.form__title {
+	font-size: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+}
+.form__label , .form__input {
+	margin: 10px 0;
+}
+.form__input {
+	border: unset;
+	border-bottom: 2px solid;
+	padding: 6px;
+	outline: none;
+	font-size: 16px;
+	border-radius: 10px;
+}
+.form__submit {
+	margin:10px 0;
+	padding: 8px;
+	background: aqua;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 10px;
+	border-color: aqua;
+}
+.profile {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.logout {
+	color: red;
+	text-decoration: none;
+}
+.message {
+	resize: none;
+	padding: 5px;
+	border-radius: 10px;
+}
+.save_check {
+	margin-bottom:10px ;
+}
+
+#new_theme {
+	display: none;
+	margin-top: 50px;
+}
